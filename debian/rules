@@ -16,3 +16,7 @@ override_dh_auto_test:
 
 override_dh_auto_install:
 	python3 setup.py install --root=$(CURDIR)/debian/unity-scope-zotero --install-layout=deb
+	# Every unity-scope-* installed src/__init__.py as
+	# /usr/lib/python3/dist-packages/__init__.py, so no two of them could be
+	# installed together; the scope loads from /usr/share/unity-scopes
+	rm -f $(CURDIR)/debian/unity-scope-zotero/usr/lib/python3/dist-packages/__init__.py
