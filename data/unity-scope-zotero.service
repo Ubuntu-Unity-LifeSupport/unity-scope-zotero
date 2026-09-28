@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.canonical.Unity.Scope.Academic.Zotero
+Exec=/usr/bin/python3 /usr/share/unity-scopes/scope-runner-dbus.py /usr/share/unity-scopes/zotero/unity_zotero_daemon.py

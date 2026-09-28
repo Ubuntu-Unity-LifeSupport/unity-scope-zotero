@@ -1,0 +1,119 @@
+unity-scope-zotero (0.1+13.10.20130723-0ubuntu4) resolute; urgency=medium
+
+  * No-change mass rebuild for Ubuntu 26.04 (LP: #2132257)
+
+ -- Sebastien Bacher <seb128@debian.org>  Tue, 02 Dec 2025 23:18:27 +0100
+
+unity-scope-zotero (0.1+13.10.20130723-0ubuntu3) hirsute; urgency=medium
+
+  * debian/control: updated for the new libunity gir naming
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 27 Jan 2021 16:49:07 +0100
+
+unity-scope-zotero (0.1+13.10.20130723-0ubuntu2) focal; urgency=medium
+
+  * Build-depend on dh-python to fix FTBFS.
+
+ -- Logan Rosen <logan@ubuntu.com>  Sat, 07 Mar 2020 01:02:40 -0500
+
+unity-scope-zotero (0.1+13.10.20130723-0ubuntu1) saucy; urgency=low
+
+  [ Mark Tully ]
+  * Updates SQL query to take into account zotero attachments. (LP:
+    #1174987)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 24
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 23 Jul 2013 06:12:34 +0000
+
+unity-scope-zotero (0.1daily13.06.05-0ubuntu1) saucy; urgency=low
+
+  [ Michael Terry ]
+  * Clean up Description, Homepage, Vcs, and copyright
+
+  [ David Callé ]
+  * Fix copyright
+  * Install .scope file in its master folder
+  * Install to /usr/share/unity-scopes, fix service file accordingly
+  * Depends on unity-scopes-runner
+  * Fix Loader field in scope file
+  * Update category id.
+  * Update description.
+  * Bump Unity deps.
+
+  [ Mark Tully ]
+  * Updated to new API Converted to Python 3 Updated test pass data
+  * Added translations
+  * Add packaging
+  * Added previews.
+
+  [ Didier Roche ]
+  * add python3-gi build-dep
+  * nuke wrong seederie
+  * Fix special character in debian/control
+
+  [ markjtully ]
+  * Fixed tests
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 22
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 05 Jun 2013 06:08:34 +0000
+
+unity-scope-zotero (0.1daily13.05.31ubuntu.unity.next-0ubuntu1) raring; urgency=low
+
+  [ Michael Terry ]
+  * Clean up Description, Homepage, Vcs, and copyright
+
+  [ David Callé ]
+  * Fix copyright
+  * Install .scope file in its master folder
+  * Install to /usr/share/unity-scopes, fix service file accordingly
+  * Depends on unity-scopes-runner
+  * Fix Loader field in scope file
+  * Update category id.
+  * Update description.
+  * Bump Unity deps.
+
+  [ Mark Tully ]
+  * Updated to new API Converted to Python 3 Updated test pass data
+  * Added translations
+  * Add packaging
+  * Added previews.
+
+  [ Didier Roche ]
+  * add python3-gi build-dep
+  * nuke wrong seederie
+  * Fix special character in debian/control
+
+  [ markjtully ]
+  * Fixed tests
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 21 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 31 May 2013 04:19:31 +0000
+
+unity-scope-zotero (0.1daily13.05.07ubuntu.unity.experimental.certified-0ubuntu1) raring; urgency=low
+
+  * Automatic snapshot from revision 19 (ubuntu-unity/experimental-
+    certified)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 07 May 2013 07:21:58 +0000
+
+unity-scope-zotero (0.1daily13.04.10ubuntu.unity.experimental.certified-0ubuntu1) raring; urgency=low
+
+  * Initial release
+
+  [ Sebastien Bacher ]
+  * bump libunity requirements in debian/control, small packaging fixes
+
+  [ Didier Roche ]
+  * Automatic snapshot from revision 1 (boostrap)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 16 (ubuntu-unity/experimental-
+    certified)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 10 Apr 2013 07:19:23 +0000

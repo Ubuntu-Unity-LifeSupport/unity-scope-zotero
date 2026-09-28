@@ -1,0 +1,16 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Academic.Zotero
+DBusPath=/com/canonical/unity/scope/academic/zotero
+Icon=
+Keywords=zotero;
+RequiredMetadata=
+OptionalMetadata=
+Loader=/usr/share/unity-scopes/zotero/unity_zotero_daemon.py
+RemoteContent=false
+Type=academic
+Name=Zotero
+Description=Find Zotero items
+SearchHint=Search Zotero
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-zotero

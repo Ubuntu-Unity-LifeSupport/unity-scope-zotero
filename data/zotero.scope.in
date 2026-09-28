@@ -1,0 +1,16 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Academic.Zotero
+DBusPath=/com/canonical/unity/scope/academic/zotero
+Icon=
+_Keywords=zotero;
+RequiredMetadata=
+OptionalMetadata=
+Loader=/usr/share/unity-scopes/zotero/unity_zotero_daemon.py
+RemoteContent=false
+Type=reference
+_Name=Zotero
+_Description=This is an Ubuntu search plugin that enables information from Zotero to be searched and displayed in the Dash underneath the Reference header. If you do not wish to search this content source, you can disable this search plugin.
+_SearchHint=Search Zotero
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-zotero
